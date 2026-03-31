@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tip and Bill Splitter</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+    <h1>Tip and Bill Splitter</h1   >
+    <input type="number" id="billAmount" placeholder="Enter bill amount">
+    <label for="tipPercentage">Choose tip amount:</label>
+    <select id="tipPercentage" name="tipPercentage">
+        <option value="10">10%</option>
+        <option value="15">15%</option>
+        <option value="20">20%</option>
+         <option value="25">25%</option>
+    </select>
+    <input type="number" id="numberOfPeople" placeholder="Number of People to Split the Bill">
+    <button id="calculateButton">Calculate</button>
+    <div id="result"></div>
+    <button id="clearButton">Clear</button>
+    </div>
+    <script src="scripts.js"></script>
+</body>
+</html>
