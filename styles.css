@@ -1,0 +1,74 @@
+/* styles.css */
+
+/* Reset some default margins/paddings */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Container styling */
+.container {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 30px;
+    background-color: #f7f7f7;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    text-align: center;
+}
+
+/* Heading */
+.container h1 {
+    margin-bottom: 20px;
+    color: #333;
+}
+
+/* Inputs and select */
+.container input[type="number"],
+.container select {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0 20px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+/* Buttons */
+.container button {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    background-color: #4CAF50;
+    color: white;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.container button:hover {
+    background-color: #45a049;
+}
+
+/* Result box */
+#result {
+    margin-top: 20px;
+    padding: 15px;
+    background-color: #e2f0d9;
+    border: 1px solid #4CAF50;
+    border-radius: 5px;
+    font-weight: bold;
+    color: #333;
+}
+
+/* Label styling */
+label {
+    display: block;
+    text-align: left;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
